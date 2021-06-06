@@ -45,7 +45,7 @@ class Net(nn.Module):
         self.fc1 = nn.Linear(28 * 28, 512)
         self.fc2 = nn.Linear(512, 256)
         self.fc3 = nn.Linear(256, 10)
-        self.dropout_prob = 0.5
+        self.dropout_prob = 0.3
 
     def forward(self, x):
         x = x.view(-1, 28*28)
