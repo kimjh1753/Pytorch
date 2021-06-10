@@ -64,7 +64,7 @@ criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.SGD(
     model.parameters(),
     lr = 1e-2,
-    momentum = 0.5
+    momentum = 0.4
 )
 
 print(model)
