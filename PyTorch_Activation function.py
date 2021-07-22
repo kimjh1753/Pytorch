@@ -37,5 +37,5 @@ class Net(nn.Moudle):
         self.fc2 = nn.Linear(512, 256)
         self.fc3 = nn.Linear(256, 512)
 
-    def foward(self, w):
+    # def foward(self, w):
         
